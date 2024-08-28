@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.8">
+  <diagram name="Pagina-1" id="Hzpfnr8CMjzTG6HT2jJz">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kLj1LOddqT1_byryCIV8-10" value="garage" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="40" width="740" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="kLj1LOddqT1_byryCIV8-11" value="id -INT - NOT NULL- UNIQUE- AUTO_INCREMENT-PRIMARY_KEY" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kLj1LOddqT1_byryCIV8-10">
+          <mxGeometry y="30" width="740" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kLj1LOddqT1_byryCIV8-12" value="brand -VARCHAR(25) NOT NULL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kLj1LOddqT1_byryCIV8-10">
+          <mxGeometry y="60" width="740" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kLj1LOddqT1_byryCIV8-13" value="model VARCHAR(50) NOT NULL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kLj1LOddqT1_byryCIV8-10">
+          <mxGeometry y="90" width="740" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kLj1LOddqT1_byryCIV8-14" value="km VARCHAR(10) NOT NULL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kLj1LOddqT1_byryCIV8-10">
+          <mxGeometry y="120" width="740" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kLj1LOddqT1_byryCIV8-26" value="price VARCHAR(10) NOT NULL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kLj1LOddqT1_byryCIV8-10">
+          <mxGeometry y="150" width="740" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kLj1LOddqT1_byryCIV8-23" value="year CHAR(4) -NOT NULL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kLj1LOddqT1_byryCIV8-10">
+          <mxGeometry y="180" width="740" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kLj1LOddqT1_byryCIV8-24" value="displacements CHAR(4) NOT NULL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kLj1LOddqT1_byryCIV8-10">
+          <mxGeometry y="210" width="740" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kLj1LOddqT1_byryCIV8-25" value="engine power CHAR(4) NOT NULL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kLj1LOddqT1_byryCIV8-10">
+          <mxGeometry y="240" width="740" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kLj1LOddqT1_byryCIV8-15" value="numbers of owners&amp;nbsp; VARCHAR(2) NULL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kLj1LOddqT1_byryCIV8-10">
+          <mxGeometry y="270" width="740" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kLj1LOddqT1_byryCIV8-16" value="color VARCHAR(10) NULL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kLj1LOddqT1_byryCIV8-10">
+          <mxGeometry y="300" width="740" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kLj1LOddqT1_byryCIV8-17" value="damage VARCHAR(255) NULL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kLj1LOddqT1_byryCIV8-10">
+          <mxGeometry y="330" width="740" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kLj1LOddqT1_byryCIV8-18" value="picture NOT NULL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kLj1LOddqT1_byryCIV8-10">
+          <mxGeometry y="360" width="740" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kLj1LOddqT1_byryCIV8-19" value="accessories VARCHAR(255)- NULL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kLj1LOddqT1_byryCIV8-10">
+          <mxGeometry y="390" width="740" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kLj1LOddqT1_byryCIV8-20" value="available - TINYINT - DEFAULT(1)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kLj1LOddqT1_byryCIV8-10">
+          <mxGeometry y="420" width="740" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kLj1LOddqT1_byryCIV8-21" value="note&amp;nbsp; TEXT-NULL&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kLj1LOddqT1_byryCIV8-10">
+          <mxGeometry y="450" width="740" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kLj1LOddqT1_byryCIV8-22" value="created_at - TIMESTAMP- NOTNULL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kLj1LOddqT1_byryCIV8-10">
+          <mxGeometry y="480" width="740" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kLj1LOddqT1_byryCIV8-28" value="updated_at - TIMESTAMP- NOTNULL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="kLj1LOddqT1_byryCIV8-10">
+          <mxGeometry y="510" width="740" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
